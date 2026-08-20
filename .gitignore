@@ -1,0 +1,22 @@
+# Backups / exports de dados reais — nunca devem ir para o repositório
+*.bak
+*backup*
+*export*
+dados*.json
+dados*.csv
+localstorage*.json
+*.sqlite
+*.db
+
+# Variáveis de ambiente / segredos (caso adicione backend no futuro)
+.env
+.env.*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
